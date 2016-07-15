@@ -1,0 +1,1 @@
+knife ec2 server create -I ami-fce3c696 -r "role[base]" -Z us-east-1a --groups terraform-sg -S terraform -i terraform.pem -f m1.medium -A 'AKIAIXMZQV4SKNXJQBHQ' -K "uCQtAOIcFzPYbSAe8g54775CBqewugjlz569F+PL" --region us-east-1 --ssh-user
